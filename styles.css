@@ -251,6 +251,7 @@
     padding: 15px;
 
     background-color: var(--background-white);
+    box-shadow: 0px 3px 3px var(--box-shadow-gray);
 }
 
 .announcement-card {
@@ -275,6 +276,7 @@
     
 }
 
+/* || Trending Section Styling */
 .page-trending-wrapper {
     background-color: var(--background-grey);
     height: 320px;
@@ -289,4 +291,23 @@
     padding: 15px;
 
     background-color: var(--background-white);
+    box-shadow: 0px 3px 3px var(--box-shadow-gray);
+}
+
+.trender {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.trender-info {
+    margin-left: 15px;
+}
+
+.trender-info p {
+    font-size: 12px;
+    color: var(--text-charcoal);
+}
+.user {
+    border-radius: 50%;
 }
